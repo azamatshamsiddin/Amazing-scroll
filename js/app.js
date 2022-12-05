@@ -5,7 +5,8 @@ document.querySelectorAll(".slider").forEach((item, index) => {
 		mousewheel: true,
 		slidesPerView: 1.75,
 		direction: "vertical",
-    slidesOffsetBefore: -125
+    slidesOffsetBefore: -125,
+    loop: true
 	});
 });
 
